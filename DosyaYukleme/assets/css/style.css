@@ -1,0 +1,65 @@
+:root {
+    /* Ana Renkler */
+    --color-primary: #0077cc; /* Ana renk - mavi */
+    --color-background: #f0f7f4; /* Arka plan rengi - açık mavi tonu */
+    --color-text: #333; /* Metin rengi - koyu gri */
+
+    /* Yan Renkler */
+    --color-button-background: #f0f0f0; /* Buton arka planı - açık gri */
+    --color-button-text: #333; /* Buton metin rengi - koyu gri */
+
+    /* Vurgu Renkleri */
+    --color-alert: #ffcc00; /* Uyarı mesajları - turuncu */
+    --color-success: #4caf50; /* Başarı mesajları - yeşil */
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Dikey ortalamaya göre ayarlar */
+    height: 80vh; /* İstenilen yükseklik */
+
+}
+body{
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Roboto", sans-serif;
+}
+button{
+    background-color: var(--color-button-background);
+    color: var(--color-button-text);
+    border: 3px solid #333;
+    padding: 0.6rem 1rem;
+    text-wrap: nowrap;
+    width: min-content;
+    font-weight: 900;
+    font-size: medium;
+}
+button:hover{
+    border-top: 6px solid #333;
+    border-right: 6px solid #333;
+    transition: 75ms;
+}
+nav{
+    width: 100%;
+}
+
+form{
+    flex-direction: column;
+}
+.form-element{
+    margin-top: 6rem;
+}
+i{
+    color:#333;
+}
+#file-input-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 2%;
+    border: 2px dashed black;
+    background-color: transparent;
+    justify-content: space-around;
+}
