@@ -1,0 +1,66 @@
+*{
+    font-family: "Roboto", sans-serif;
+    color: rgb(53, 53, 53);;
+}
+
+nav{
+    background-color: rgb(216, 216, 216);
+    border-radius: 10vh;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    font-size: x-large;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bg{
+    background-color: rgb(53, 53, 53);
+    color: rgb(216, 216, 216);
+    padding: 0.4rem 0.8rem;
+    border-radius: 10vh;
+    margin-right: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 5rem;
+    border-radius: 1vh;
+    align-items: center;
+    background-color: rgba(216, 216, 216, 0.366);
+}
+.form-element{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border-radius: 1vh;
+    border-color: transparent;
+}
+.button{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.error{
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(176, 44, 44);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1vh;
+
+}
+i{
+    color: #d8d8d8;
+}
